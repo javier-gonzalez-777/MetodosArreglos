@@ -1,0 +1,30 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 800px;
+    height: 400px;
+    background-color: rgb(225, 222, 222);
+}
+body{
+    width: 800px;
+}
+
+.imput{
+    display: flex;
+    flex-direction: row;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   /* border:1px solid red; */
+}
+
+.tabla{
+    display:flex;
+    flex-direction: column;
+   /* border:5px solid green; */
+    width: 400px;
+    /*border: 1px solid blue; */
+}
